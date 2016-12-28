@@ -1,0 +1,19 @@
+.logo{margin-top: 20px;float: left}
+.top-nav{float: right;}
+.top-nav li{;border-left: 1px solid #000;float: left}
+.top-nav  a{color: #000;display: block;width: 170px;height: 60px;text-align:center;line-height: 60px}
+.top-nav li:hover{cursor: pointer;background: #083d75}
+.top-nav li:hover a{color: #fff}
+.active{background: #083d75}
+.active a{color: #fff}
+.top-nav li:first-child{border: none;}
+.top-nav ul{margin-top: 35px}
+.footer{width: 100%;height:260px;background: url(../images/bottom.jpg);border-top: 4px solid #eab12d;}
+.footer li{float: left;width: 180px;background: url(../images/bottonline.png) no-repeat right;}
+.footer li dl{text-align: center}
+.footer dt{margin-bottom: 30px;color: #fff;font-size: 14px}
+.footer dd{margin: 5px 0;}
+.footer a{color: #fff;font-size: 14px}
+.footer ul{margin:34px auto 0 auto;width: 730px}
+.erwei{top: 70px;right: 60px;position: absolute;}
+.footer_inner{position: relative;}

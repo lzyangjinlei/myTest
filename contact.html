@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>联系我们</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/clear.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/contact.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4&ak=您的密匙"></script>
+	<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>	
+	<script type="text/javascript" src="./js/map.js"></script>
+	<script type="text/javascript" src="./js/contact.js"></script>
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div class="inner">
+		<div class="logo">
+			<a href="index.html"><img src="images/logo.png"></a>
+		</div>
+		<div class="top-nav">
+			<ul>
+				<li><a href="index.html">首 &nbsp;页</a></li>
+				<li><a href="about.html">公司介绍</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="product.html">产品中心</a></li>
+				<li class="active"><a href="contact.html">联系我们</a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- 头部结束 -->
+	<div class="showpic">
+		<img src="images/banner.jpg">
+	</div>
+	<div class="content inner ">
+		<div class="content_nav">
+			<ul>
+				<li>&gt;<a href="index.html">首页</a></li>
+				<li>&gt;<a href="contact.html" class="thispage">联系我们</a></li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<!-- 表单 -->
+		<form method="post" action="">
+				<table>
+					<tr>
+						<td>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:</td>
+						<td><input type="text" name="username"></td>
+					</tr>
+					<tr>
+						<td>联系电话：</td>
+						<td><input type="text" name="phoneNum"></td>
+					</tr>
+					<tr>
+						<td>联系地址：</td>
+						<td><input type="text" name="addr"></td>
+					</tr>
+					<tr>
+						<td valign="top">留&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;言：</td>
+						<td><textarea name="message"></textarea></td>
+					</tr>
+					<tr>
+						<td>验&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码：</td>
+						<td class="vailify"><img src="./images/vailify.jpg" alt="验证码"><input type="text" name="vailify"></td>
+					</tr>
+					<tr class="btn"><td><input type="button" name="recover" value="重置" onclick="reset()"></td>
+					<td align="right"><input type="submit" name="sub" value="提交"></td></tr>
+				</table>
+		</form>
+		<!-- 表单结束 -->
+		<!-- 地址信息 -->
+		<div class="addr">
+			<ul>
+				<li><label>公司地址：</label><span>广东佛山市顺德区锦龙路154号</span></li>
+				<li><label>服务 Q Q：</label><span>000000000000</span></li>
+				<li><label>服务电话：</label><span>000000000000</span></li>
+				<li><label>官方网址：</label><span>www.nidaye.com</span></li>
+				<li><label>官方邮箱：</label><span>nidaye@nidaye.com</span></li>
+			</ul>
+		</div>
+		<!-- 地址信息结束 -->
+		<div class="clear"></div>
+		<!-- 地图区域 -->
+		<div style="width:1200px;height:800px;border:#ccc solid 1px;font-size:12px;margin-bottom: 20px" id="map"></div>
+		</div>
+		<!-- 地图区域结束 -->
+	<div class="footer">
+		<div class="inner footer_inner">
+			<ul>
+				<li>
+					<dl>
+						<dt><a href="about.html">关于我们</a></dt>
+						<dd><a href="">公司简介</a></dd>
+						<dd><a href="">发展历程</a></dd>
+						<dd><a href="">公司荣耀</a></dd>
+						<dd><a href="">企业理念</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><a href="product.html">产品中心</a></dt>
+						<dd><a href="">技术中心</a></dd>
+						<dd><a href="">产品基地</a></dd>
+						<dd><a href="">产品保障</a></dd>
+						<dd><a href="">精良设备</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><a href="news.html">新闻中心</a></dt>
+						<dd><a href="">企业新闻</a></dd>
+						<dd><a href="">行业动态</a></dd>
+						<dd><a href="">专题报道</a></dd>
+						<dd><a href="">产品知识</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><a href="contact.html">联系我们</a></dt>
+						<dd><a href="">联系方式</a></dd>
+						<dd><a href="">公司地址</a></dd>
+						<dd><a href="">在线留言</a></dd>
+					</dl>
+				</li>
+				<div class="clear"></div>
+			</ul>
+			<div class="erwei">
+				<img src="images/erwei.jpg">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+   
+    	var map;
+      initMap();
+	</script>
+</body>
+</html>

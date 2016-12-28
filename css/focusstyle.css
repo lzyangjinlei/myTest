@@ -1,0 +1,91 @@
+﻿*{
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	vertical-align: top;
+}
+li{
+	list-style: none;
+}
+
+#focus-banner{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+#focus-banner-list{
+	position: relative;
+}
+#focus-banner-list li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+#focus-banner-list li img{
+	width: 100%;
+}
+.focus-banner-img{
+	display: block;
+}
+#focus-banner .focus-handle{
+	position: absolute;
+	top: 50%;
+	margin-top: -40px;
+	z-index: 100;
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+#prev-img{background: url(../images/icon.png) no-repeat ;}
+#next-img{background: url(../images/icon.png) no-repeat -86px 0;}
+#next-img{
+	left: 0;
+}
+#next-img{
+	left: 50px;
+	background-position: 0 0;
+}
+#next-img:hover{
+	opacity: 0.5;
+	filter:Alpha(Opacity=50)
+}
+#prev-img{
+	right: 0;
+}
+#prev-img{
+	right: 50px;
+	background-position: -80px 0;
+}
+#prev-img:hover{
+	opacity: 0.5;
+	filter:Alpha(Opacity=50)
+}
+
+#focus-bubble{
+	position: absolute;
+	left: 47%;
+	bottom: 10px;
+	z-index: 999;
+}
+#focus-bubble li{
+	float: left;
+	width: 30px;
+	height: 12px;
+	margin: 0 5px;
+	/*border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;*/
+	/*border:1px #fff solid;*/
+	float: left;
+	cursor: pointer;
+	background: url(../images/icon.png) -35px 83px;
+}
+#focus-bubble li.current{
+	background: url(../images/icon.png) 0 83px
+}

@@ -1,0 +1,36 @@
+.showpic,.showpic img{width: 100%}
+.content_nav{margin-top: 34px;border-bottom: 1px solid #aaa}
+.content_nav li{float: left}
+.content_nav a{line-height: 30px;font-size: 12px}
+.content_nav a:hover{color: #0012ff}
+.content_nav ul{margin-top: 34px}
+.content_nav .thispage{color: #0012ff}
+.content_main{margin-top: 10px}
+
+.left_content_nav{width: 164px;float: left;margin-right: 46px}
+.left_content_nav li{padding: 14px 46px;background: url(../images/navbg1.jpg);border-bottom: 1px dashed #fff }
+.left_content_nav li:hover{cursor: pointer;}
+.left_content_nav .navactive{background: url(../images/navbg2.jpg);}
+.left_content_nav .navactive a{color: #000}
+.left_content_nav a{color: #fff}
+.right_content{float: right;width: 990px;}
+.right_content li{margin-bottom: 28px}
+.right_content h4{padding:18px 0;padding-left: 20px}
+.right_content p{margin-left: 40px}
+.news_pic{float: left;margin-right: 20px;width: 360px}
+.new_content{background: #0864b1;width: 610px;padding-bottom: 50px;float: left;position: relative;}
+.new_content a{bottom: 10px;right: 10px;}
+
+.number li{float: left;margin:0 2px;border:1px solid #000;}
+.number{width: 280px;margin:10px auto;}
+.number li a{padding:1px 6px;}
+.number .active{background: #0864b1;border:1px solid #0864b1;}
+.number li:hover{background: #0864b1 }
+.number li:hover a{color: #fff}
+.content{margin-bottom: 30px}
+.right_content,.right_content a{color: #fff}
+.right_content div{display: none;}
+.right_content .tab_active,.right_content .tab_active div{display: block;} 
+.new_content:hover{color: #000}
+.new_content:hover a{color: #000}
+.more{position: absolute;}

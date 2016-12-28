@@ -1,0 +1,35 @@
+.showpic,.showpic img{width: 100%}
+.content_nav{margin-top: 34px;border-bottom: 1px solid #aaa}
+.content_nav li{float: left}
+.content_nav a{line-height: 30px;font-size: 12px}
+.content_nav a:hover{color: #0012ff}
+.content_nav ul{margin-top: 34px}
+.content_nav .thispage{color: #0012ff}
+.content_main{margin-top: 10px}
+
+.left_content_nav{width: 164px;float: left;margin-right: 46px}
+.left_content_nav li{padding: 14px 46px;background: url(../images/about_nav_bg.jpg);border-bottom: 1px dashed #a0a0a0 }
+.left_content_nav li:hover{cursor: pointer;}
+.left_content_nav .navactive{background: url(../images/about_nav_bg1.jpg);border-color:#fff }
+.right_content{float: right;width: 990px;}
+.main{margin-bottom: 62px}
+.proc_img{width: 120px;margin-right: 30px;float: left}
+.proc_img img{width: 100%}
+.proc_cont{width: 206px;margin-right: 20px;float: left}
+.proc_cont p{margin-left: 30px;font-size: 14px;line-height: 22px}
+.proc_cont h4{padding: 20px 0}
+.proc_cont a{right: 30px;bottom: 10px}
+.prod li{float: left;width: 376px;background: #abb7cd;margin:25px 50px;position: relative;}
+
+.number li{float: left;margin:0 2px;border:1px solid #000;cursor: pointer;}
+.number li a{padding:1px 6px;}
+.number{width: 280px;margin:10px auto;}
+.number .active{background: #0864b1;border:1px solid #0864b1;}
+.number li:hover{background: #0864b1 }
+.number li:hover a{color: #fff}
+.content{margin-bottom: 30px}
+/*.container{width: 122px;position: relative;}*/
+.mask{width:100%;height:100%;background:#000;position: absolute;display: none;opacity:0.5;filter: alpha(opacity=50);top: 0}
+.mask a{display: block;width: 100%;height: 100%}
+.right_content ul{display: none;}
+.right_content .tab_active{display: block;}

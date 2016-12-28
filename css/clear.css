@@ -1,0 +1,14 @@
+*{margin:0;padding: 0;outline: none}
+a{text-decoration: none;}
+i{font-style: normal;}
+li{list-style: none;}
+img{border:none;}
+.fl{float: left;}
+.fr{float: right;}
+.inner{width: 1200px;margin:0 auto;}
+.clear{clear: both}
+.pr{position: relative;}
+.pa{position: absolute;}
+body,body a{font-family: "微软雅黑";font-size:16px;}
+a{color: #000000}
+a:hover{color: #e2ea5c}

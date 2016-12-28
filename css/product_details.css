@@ -1,0 +1,25 @@
+.showpic,.showpic img{width: 100%}
+.content_nav{margin-top: 34px;border-bottom: 1px solid #aaa}
+.content_nav li{float: left}
+
+.content_nav a{line-height: 30px;font-size: 12px}
+.content_nav a:hover{color: #0012ff}
+.content_nav ul{margin-top: 34px}
+.content_nav .thispage{color: #0012ff}
+.content_main{margin-top: 10px}
+
+.left_content_nav{width: 164px;float: left;margin-right: 46px}
+.left_content_nav li{padding: 14px 46px;background: url(../images/about_nav_bg.jpg);border-bottom: 1px dashed #a0a0a0 }
+.left_content_nav li:hover{cursor: pointer;}
+.left_content_nav .navactive{background: url(../images/about_nav_bg1.jpg);border-color:#fff }
+.right_content{float: right;width: 990px;background: #eaeaea}
+.main{margin-bottom: 62px}
+.content_txt{width: 638px;float: left;}
+
+.classify{width: 298px;margin-right: 54px;float: left}
+.classify img{width:100%}
+.con{margin-top: 44px;background: #abb7cd;padding-bottom: 50px}
+.con h4{text-align: center;padding: 30px 0}
+.con p{text-indent: 30px;margin: 0 10px;margin-bottom: 32px}
+.right_content div{display: none;}
+.right_content .tab_active,.right_content .tab_active div{display: block;} 

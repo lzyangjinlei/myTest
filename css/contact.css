@@ -1,0 +1,21 @@
+.showpic,.showpic img{width: 100%}
+.content_nav{margin-top: 34px;border-bottom: 1px solid #aaa}
+.content_nav li{float: left}
+.content_nav a{line-height: 30px;font-size: 12px}
+.content_nav a:hover{color: #0012ff}
+.content_nav ul{margin-top: 34px}
+.content_nav .thispage{color: #0012ff}
+.c_content{margin-top: 10px}
+table{font-size: 14px;border-spacing: 0 10px}
+table input[type='text']{width: 234px;height: 20px;padding-left: 6px;line-height: 20px}
+table textarea{width: 235px;height: 86px;overflow-y: hidden;padding-left: 6px;resize: none;}
+table .vailify input{width: 140px;float: left}
+table .vailify img{width: 94;height: 24px;float: left;margin-right: 4px}
+table .vailify img:hover{cursor: pointer;}
+table .btn input{width: 46px;height: 30px;border: 1px solid #000;background: #fff}
+table .btn input:hover{border:none;background: #c2c2c2;cursor: pointer;}
+form{width: 338px;margin-left: 50px;margin-right: 282px;float: left}
+.addr{float: left;margin-top: 10px}
+.addr li{margin-bottom: 30px;font-weight: bold;}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}

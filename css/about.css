@@ -1,0 +1,28 @@
+.showpic,.showpic img{width: 100%}
+.content_nav{margin-top: 34px;border-bottom: 1px solid #aaa}
+.content_nav li{float: left}
+.content_nav a{line-height: 30px;font-size: 12px}
+.content_nav a:hover{color: #0012ff}
+.content_nav ul{margin-top: 34px}
+.content_nav .thispage{color: #0012ff}
+.content_main{margin-top: 10px}
+
+.main_nav{width: 164px;float: left;margin-right: 46px}
+.main_nav li{padding: 14px 46px;background: url(../images/about_nav_bg.jpg);border-bottom: 1px dashed #a0a0a0 }
+.main_nav li:hover{cursor: pointer;}
+.main_nav .navactive{background: url(../images/about_nav_bg1.jpg);border-color:#fff }
+.content_right{float: right;width: 990px;background: #abb7cd}
+.content_pic,.content_txt,.cc_right li{float: left;}
+.content_pic{width: 450px;margin-right: 60px}
+.content_pic img{width: 450px}
+.content_txt{width: 450px;margin-right: 30px}
+.content_txt p{text-indent: 30px;padding-top: 20px;line-height: 26px}
+.shownav{margin-top: 40px}
+.shownav li,.shownav li img{width: 296px}
+.shownav li{margin-left: 50px;float: left}
+.shownav li:first-child{
+	margin-left:0;
+}
+.main{margin-bottom: 62px}
+.content_right div{display: none;}
+.content_right .tab_active,.content_right .tab_active div{display: block;} 

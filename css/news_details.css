@@ -1,0 +1,23 @@
+.showpic,.showpic img{width: 100%}
+.content_nav{margin-top: 34px;border-bottom: 1px solid #aaa}
+.content_nav li{float: left}
+.content_nav a{line-height: 30px;font-size: 12px}
+.content_nav a:hover{color: #0012ff}
+.content_nav ul{margin-top: 34px}
+.content_nav .thispage{color: #0012ff}
+.content_main{margin-top: 10px}
+
+.main_nav{width: 164px;float: left;margin-right: 46px}
+.main_nav li{padding: 14px 46px;background: url(../images/navbg1.jpg);border-bottom: 1px dashed #fff }
+.main_nav li:hover{cursor: pointer;}
+.main_nav .navactive{background: url(../images/navbg2.jpg);}
+.main_nav .navactive a{color: #000}
+.main_nav a{color: #fff}
+.content_txt{float: right;width: 990px;background: #eaeaea;padding-bottom: 80px;margin-bottom: 50px;display: none;}
+.tab_active{display: block;}
+.content_txt h3{padding:18px 0;text-align: center}
+.content_txt p{text-indent: 20px;margin:20px 50px;font-size: 14px}
+.content_txt img{margin: 20px auto;width: 100%}
+.content_txt .pic{width: 370px;margin: 0 auto}
+.prev{left: 50px;bottom: 10px}
+.next{right: 50px;bottom: 10px}
